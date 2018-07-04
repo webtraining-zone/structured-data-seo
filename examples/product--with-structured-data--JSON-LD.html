@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSON-LD</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="../common/css/styles.css">
+    <meta name="description" content="shoes for everyone available for immediate delivery all across the world">
+</head>
+<body>
+
+<div class="container">
+    <div class="b-content padding-top-sm padding-bottom-sm">
+
+        <div class="content">
+            <h1>Shoes for everyone</h1>
+            <h2>Get them now!</h2>
+        </div>
+
+        <div class="columns is-multiline">
+            <div class="column is-one-quarter-desktop is-one-third-tablet">
+
+                <div class="b-product b-product--list-item">
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="#">
+                                <figure class="image is-16by9">
+                                    <img src="../common/img/nike-1.jpg"
+                                         alt="Nike Model 1" />
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="card-content">
+
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="b-product__title title is-4">
+                                        <a class="b-product__title-link" href="#">
+                                            <span>Epic React Fly and Go</span>
+                                        </a>
+                                    </p>
+                                    <p class="b-product__subtitle subtitle is-6">
+                                        Men's Running Shoe
+                                    </p>
+
+                                    <p class="b-product__description">
+                                        The Nike Epic React Fly and Go Men's Running Shoe provides comfort that lasts as
+                                        long as you can run.
+                                    </p>
+
+                                    <p class="b-product__price">
+                                        <strong>
+                                            <span>$</span>
+                                            <span>150</span>
+                                        </strong> <span>USD</span>
+
+                                        In stock
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- ./b-product -->
+
+            </div><!-- ./column -->
+        </div>
+    </div>
+</div>
+
+<footer class="b-footer">
+    <div class="container">
+        <img src="../common/img/logo-webtraining.png" alt="Logo Webtraining" width="160">
+        <p>
+            Created with ❤ by <a href="https://webtraining.zone" target="_blank">Webtraining.Zone</a>.</p>
+        <p>
+            Pictures taken from <a href="https://unsplash.com/search/photos/shoe"
+                                   target="_blank"> Unsplash</a>.
+        </p>
+    </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Product",
+  "description": "The Nike Epic React Fly and Go Men's Running Shoe provides comfort that lasts as long as you can run.",
+  "name": "Epic React Fly and Go",
+  "image": "../common/img/nike-1.jpg",
+  "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "150.00",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+</body>
+</html>
