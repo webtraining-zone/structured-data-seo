@@ -5,25 +5,30 @@
     <title>Microdata</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="../common/css/styles.css">
+    <meta name="description" content="shoes for everyone available for immediate delivery all across the world">
 </head>
 <body>
 
 <div class="container">
     <div class="b-content padding-top-sm padding-bottom-sm">
+
+
+
         <div class="content">
-            <h2>Shoes</h2>
+            <h1>Shoes for everyone</h1>
+            <h2>Get them now!</h2>
         </div>
 
         <div class="columns is-multiline">
             <div class="column is-one-quarter-desktop is-one-third-tablet">
 
-                <div class="b-product b-product--list-item">
+                <div class="b-product b-product--list-item" itemscope itemtype="http://schema.org/Product">
                     <div class="card">
                         <div class="card-image">
                             <a href="#">
                                 <figure class="image is-16by9">
                                     <img src="../common/img/nike-1.jpg"
-                                         alt="Nike Model 1">
+                                         alt="Nike Model 1" itemprop="image">
                                 </figure>
                             </a>
                         </div>
@@ -33,20 +38,26 @@
                                 <div class="media-content">
                                     <p class="b-product__title title is-4">
                                         <a class="b-product__title-link">
-                                            Epic React Fly and Go
+                                            <span itemprop="name">Epic React Fly and Go</span>
                                         </a>
                                     </p>
                                     <p class="b-product__subtitle subtitle is-6">
                                         Men's Running Shoe
                                     </p>
 
-                                    <p class="b-product__description">
+                                    <p class="b-product__description" itemprop="description">
                                         The Nike Epic React Fly and Go Men's Running Shoe provides comfort that lasts as
                                         long as you can run.
                                     </p>
 
-                                    <p class="b-product__price">
-                                        <strong>$150</strong> <span>USD</span>
+                                    <p class="b-product__price" itemprop="offers" itemscope
+                                       itemtype="http://schema.org/Offer">
+                                        <strong>
+                                            <span itemprop="priceCurrency" content="USD">$</span>
+                                            <span itemprop="price" content="150.00">150</span>
+                                        </strong> <span>USD</span>
+                                        <link itemprop="availability" href="http://schema.org/InStock"/>
+                                        In stock
                                     </p>
                                 </div>
                             </div>
