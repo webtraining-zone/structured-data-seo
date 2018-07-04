@@ -5,6 +5,8 @@ Durante este taller revisamos el concepto de
 damos varios ejemplos prácticos de implementación y 
 platicamos cómo este tipo de meta-datos se están convirtiendo en un estándar.
 
+![Datos Estructurados para SEO](https://webtraining.zone/img/carousel-courses/evento-datos-estructurados-seo.jpg)
+
 Para ver el taller completo [Datos Estructurados para SEO](https://webtraining.zone/eventos/datos-estructurados-para-seo)
 visita [Webtraining.Zone](https://webtraining.zone/eventos/datos-estructurados-para-seo).
 

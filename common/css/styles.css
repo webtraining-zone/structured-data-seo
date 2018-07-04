@@ -17,6 +17,23 @@ body {
     min-height: 100%;
     background-color: #f5f6f7;
     font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.body--lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.body--lato a {
+    color: black;
+}
+
+.body--lato .b-footer a {
+    color: #967095;
+}
+
+.body--lato a:hover {
+    color: #960677;
 }
 
 a {
@@ -29,6 +46,39 @@ h2 {
     padding-bottom: 20px;
     margin-top: 20px;
     display: inline-block;
+}
+
+.b-title--highlighted {
+    border-bottom: 3px solid #960677;
+}
+
+/* Events */
+.b-event--list-item {
+    box-shadow: 0 0 2rem rgba(0, 0, 255, .1);
+    overflow: hidden;
+}
+
+.b-event__title-link {
+    color: black;
+    margin-bottom: 35px;
+    display: block;
+}
+
+.b-event__subtitle {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.b-event__title-link:hover {
+    color: #960677;
+}
+
+.b-event__description {
+    color: gray;
+    margin-bottom: 1em;
+    font-size: 0.8rem;
 }
 
 /* Products */
@@ -68,6 +118,10 @@ h2 {
     padding: 140px 0;
 }
 
+.b-footer--events {
+    padding: 40px 0;
+}
+
 /* Utils */
 .margin-top-sm {
     margin-top: 20px
@@ -83,6 +137,24 @@ h2 {
 
 .padding-bottom-sm {
     padding-bottom: 20px
+}
+
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%; /*16:9*/
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Responsive */
